@@ -1,0 +1,11 @@
+---
+application:
+  name: "docker-jellyfin"
+  project: "jellyfin"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-docker-jellyfin"
+  routes:
+  - application_name: "docker-jellyfin"
+    paths:
+    - "/*"
